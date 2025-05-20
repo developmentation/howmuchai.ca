@@ -48,7 +48,7 @@
             </p>
           </div>
           <div class="flex space-x-6">
-            <router-link to="/privacy" class="text-sm text-gray-400 hover:text-white transition-colors">
+            <router-link to="/privacy-confidentialité" class="text-sm text-gray-400 hover:text-white transition-colors">
               {{ $t('footer.privacy') }}
             </router-link>
           </div>

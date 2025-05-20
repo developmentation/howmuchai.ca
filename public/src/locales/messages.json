@@ -40,7 +40,7 @@
       "calculator": {
         "tagline": "Interactive Tool",
         "title": "Explore Canada's AI Compute Needs",
-        "description": "Use our interactive calculator to model AI adoption, compute demand, and costs from 2025 to 2030.",
+        "description": "We need your help to build an interactive calculator which will allow us to model and project the amount of AI compute Canada will need in the next 1, 5, and 10 years.",
         "demoDisclaimer": "This calculator is for demonstration purposes only"
       },
       "features": {
@@ -135,6 +135,7 @@
             "citizen": "Citizen"
           },
           "submit": "Join the Dialogue",
+          "disclaimer":"By signing up, you consent to be contacted by the Government of Alberta to invite you to participate in this initiative. You may withdraw your consent at any time.",
           "submitting": "Submitting...",
           "success": "Thank you for joining the dialogue! We'll be in touch soon."
         }
@@ -199,7 +200,7 @@
         "description": "Your information may be shared with the following entities:",
         "items": {
           "government": "Government of Alberta departments involved in AI strategy and policy development.",
-          "cci": "The Canadian Council for Innovation (CCI) for analysis and research purposes.",
+          "cci": "The Canadian Council for Innovators (CCI) for analysis and research purposes.",
           "amii": "The Alberta Machine Intelligence Institute (Amii) to inform AI research and development initiatives."
         }
       },
@@ -254,7 +255,7 @@
       "calculator": {
         "tagline": "Outil Interactif",
         "title": "Explorez les besoins en calcul d'IA du Canada",
-        "description": "Utilisez notre calculateur interactif pour modéliser l'adoption de l'IA, la demande de calcul et les coûts de 2025 à 2030.",
+        "description": "Nous avons besoin de votre aide pour créer une calculatrice interactive qui nous permettra de modéliser et de projeter la quantité de calcul d'IA dont le Canada aura besoin dans les 1, 5 et 10 prochaines années.",
         "demoDisclaimer": "Ce calculateur est uniquement à des fins de démonstration"
       },
       "features": {
@@ -348,6 +349,7 @@
             "research": "Recherche",
             "citizen": "Citoyen"
           },
+          "disclaimer":"En vous inscrivant, vous acceptez d'être contacté par le gouvernement de l'Alberta pour vous inviter à participer à cette initiative. Vous pouvez retirer votre consentement à tout moment.",
           "submit": "Rejoindre le Dialogue",
           "submitting": "Soumission en cours...",
           "success": "Merci d'avoir rejoint le dialogue! Nous vous contacterons bientôt."

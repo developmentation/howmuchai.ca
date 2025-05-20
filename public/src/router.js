@@ -9,7 +9,7 @@ const routes = [
     component: Home
   },
   {
-    path: '/privacy',
+    path: '/privacy-confidentialité',
     name: 'Privacy',
     component: Privacy
   }

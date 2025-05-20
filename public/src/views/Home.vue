@@ -441,6 +441,8 @@
                     <span v-if="loading">{{ $t('home.cta.form.submitting') }}</span>
                     <span v-else>{{ $t('home.cta.form.submit') }}</span>
                   </button>
+
+                   <p class="text-lg text-gray-400 mb-10 max-w-2xl mx-auto">{{ $t('home.cta.form.disclaimer') }}</p>
                   <p v-if="error" class="text-red-400 text-sm mt-2">{{ error }}</p>
                   <p v-if="success" class="text-green-400 text-sm mt-2">{{ success }}</p>
                 </form>
@@ -458,6 +460,7 @@ import { ref, reactive, onMounted, computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import Calculator from '../components/Calculator.vue';
 import { useSignup } from '../composables/useSignup';
+import { useConfigs } from '../composables/useConfigs';
 import { useAnimations } from '../composables/useAnimations';
 
 export default {
@@ -476,6 +479,8 @@ export default {
     });
 
     const { signup, loading, error } = useSignup();
+    const { getConfigs} = useConfigs();
+    let configs = ref(null)
     const { animateHeroElements, animateOnScroll } = useAnimations();
     const success = ref('');
 
@@ -497,11 +502,13 @@ export default {
       }
     };
 
-    onMounted(() => {
+    onMounted(async () => {
       // Initialize GSAP animations
       animateHeroElements();
       const observer = animateOnScroll();
-      
+
+      configs.value = await getConfigs();
+      console.log("Configs and Stats", configs.value)
       // Initialize particles background with vanilla JS
       setTimeout(() => {
         const particlesContainer = document.getElementById('particles-js');
