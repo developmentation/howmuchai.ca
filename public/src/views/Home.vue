@@ -93,11 +93,11 @@
                 </div>
                 <div class="mt-6 grid grid-cols-2 gap-4">
                   <div class="bg-[#0a0f1e]/80 p-4 rounded-xl">
-                    <div class="text-2xl font-bold text-teal-400">185.1M</div>
+                    <div class="text-2xl font-bold text-teal-400">$150B</div>
                     <div class="text-xs text-gray-400">{{ $t('calculator.totalInvestment') }}</div>
                   </div>
                   <div class="bg-[#0a0f1e]/80 p-4 rounded-xl">
-                    <div class="text-2xl font-bold text-blue-400">6.17</div>
+                    <div class="text-2xl font-bold text-blue-400">5,000 Mw</div>
                     <div class="text-xs text-gray-400">{{ $t('calculator.energyConsumption') }}</div>
                   </div>
                 </div>
