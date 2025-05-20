@@ -18,7 +18,7 @@
 
               {{  }}
               <h1  v-if = "locale == 'en'"  class="hero-title text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                {{ $t('home.hero.title').split(' ')[0] }} {{ $t('home.hero.title').split(' ')[1] }}  <span class="bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600 text-transparent bg-clip-text">{{ $t('home.hero.title').split(' ')[2] }}</span> {{ $t('home.hero.title').split(' ').slice(2).join(' ') }}
+                {{ $t('home.hero.title').split(' ')[0] }} {{ $t('home.hero.title').split(' ')[1] }}  <span class="bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600 text-transparent bg-clip-text">{{ $t('home.hero.title').split(' ')[2] }}</span> {{ $t('home.hero.title').split(' ').slice(3).join(' ') }}
               </h1>
 
               <h1 v-if = "locale == 'fr'" class="hero-title text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
