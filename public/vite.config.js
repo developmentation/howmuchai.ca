@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue';
 
 // Load environment variables manually for vite.config.js
 import { config } from 'dotenv';
-config({ path: '../server/.env' }); // Load server/.env explicitly
+config({ path: '../.env' }); // Load /.env explicitly
 
 // https://vitejs.dev/config/
 export default defineConfig({

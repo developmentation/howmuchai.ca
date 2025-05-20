@@ -3,7 +3,7 @@ const path = require("path");
 const { app } = require("./config/app.js");
 
 // In production, serve built files from public/dist
-if (process.env.NODE_ENV === "PROD") {
+if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "../public/dist")));
 } 
 

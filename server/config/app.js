@@ -4,7 +4,7 @@
 // console.log('signing secret', secret)
 
 //Establish local environment variables
-const dotenv = require("dotenv").config();
+
 
 //Create the app object
 const express = require("express");
@@ -13,6 +13,8 @@ const http = require("http");
 const url = require("url");
 const cors = require('cors');
 // const helmet = require('helmet');
+
+require("dotenv").config({ path: path.join(__dirname, "../../.env") }); // Load .env from root
 
 const app = express();
 
