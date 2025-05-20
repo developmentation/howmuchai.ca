@@ -55,11 +55,20 @@ const corsOptions = {
     console.log('Request Origin:', origin);
     // Allow the origin if it matches expected values, or allow non-browser requests
     const allowedOrigins = [
-      'http://localhost:5173', // Frontend development URL
-      'http://localhost:3000', // Backend URL (if needed)
       'https://howmuchai-ca.onrender.com',
-      'https://howmuchai.ca', // Production frontend URL
+      'https://howmuchai.ca',  
+      'https://www.howmuchai.ca',  
+      'https://combienia.ca',  
+      'https://www.combienia.ca',  
     ];
+
+    //Add DEV environments
+    if(process.env.NODE_ENV=='development')
+    {
+      allowedOrigins.push('http://localhost:5173')
+      allowedOrigins.push('http://localhost:3000')
+    }
+
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, origin || '*'); // Reflect the origin for browser requests
     } else {
