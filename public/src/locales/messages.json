@@ -1,0 +1,430 @@
+{
+  "en": {
+    "nav": {
+      "about": "About",
+      "calculator": "Calculator",
+      "features": "Features",
+      "approach": "Approach",
+      "join": "Join the Dialogue"
+    },
+    "home": {
+      "hero": {
+        "tagline": "Canada's AI Compute Initiative",
+        "title": "How Much AI Does Canada Need?",
+        "subtitle": "Join the national dialogue to shape Canada's AI future and ensure sovereign innovation in the rapidly evolving landscape.",
+        "exploreButton": "Explore Calculator",
+        "learnMoreButton": "Learn More",
+        "demoOnly": "DEMO ONLY",
+        "governmentAttribution": "An initiative of the Government of Alberta"
+      },
+      "about": {
+        "tagline": "Canada's AI Compute Initiative",
+        "title": "Canada's AI Compute Challenge",
+        "description": "HowMuchAI.ca is a platform to model Canada's AI compute needs, ensuring sovereign innovation and global competitiveness.",
+        "extendedDescription": "This initiative aims to quantify Canada's AI compute requirements, reduce reliance on foreign resources, and develop a strategic roadmap for sustainable AI infrastructure investment.",
+        "cards": {
+          "reliance": {
+            "title": "Address Reliance",
+            "description": "Reduce Canada's dependence on foreign AI compute resources to ensure data sovereignty and national security."
+          },
+          "stakeholders": {
+            "title": "Empower Stakeholders",
+            "description": "Provide tools for stakeholders to inform policy and investment decisions for Canada's AI infrastructure."
+          },
+          "future": {
+            "title": "Build Future-Ready",
+            "description": "Create a sustainable AI ecosystem that benefits all Canadians for generations to come."
+          }
+        }
+      },
+      "calculator": {
+        "tagline": "Interactive Tool",
+        "title": "Explore Canada's AI Compute Needs",
+        "description": "Use our interactive calculator to model AI adoption, compute demand, and costs from 2025 to 2030.",
+        "demoDisclaimer": "This calculator is for demonstration purposes only"
+      },
+      "features": {
+        "tagline": "Key Capabilities",
+        "title": "Features of the AI Compute Calculator",
+        "description": "Our calculator provides a comprehensive framework for understanding and planning Canada's AI compute infrastructure needs.",
+        "cards": {
+          "geographic": {
+            "title": "Geographic Distribution",
+            "description": "Model AI compute needs across different regions of Canada, accounting for local infrastructure and demand patterns."
+          },
+          "sliders": {
+            "title": "Interactive Parameters",
+            "description": "Adjust key variables like adoption speed, compute growth, and investment scale to see how they impact Canada's AI future."
+          },
+          "projections": {
+            "title": "Multi-year Projections",
+            "description": "Visualize AI adoption trends, inference demand, and compute requirements from 2025 to 2030."
+          },
+          "model": {
+            "title": "Comprehensive Model",
+            "description": "Based on research with industry, academia, and government to create realistic scenarios for AI compute needs."
+          },
+          "timeline": {
+            "title": "Timeline Analysis",
+            "description": "Understand how AI compute requirements will evolve over time and plan infrastructure investments accordingly."
+          },
+          "collaboration": {
+            "title": "Collaborative Approach",
+            "description": "Developed in partnership with key stakeholders including CCI and Amii to ensure accuracy and relevance."
+          }
+        }
+      },
+      "approach": {
+        "tagline": "Our Methodology",
+        "title": "Alberta's Strategy to Quantify AI Compute",
+        "description": "A systematic approach to understanding and planning for Canada's AI compute infrastructure needs.",
+        "steps": {
+          "quantify": {
+            "title": "Quantify Needs",
+            "description": "Gather data from stakeholders across sectors to establish baseline compute requirements and growth projections."
+          },
+          "partnerships": {
+            "title": "Build Partnerships",
+            "description": "Collaborate with industry, academia, and government to develop a comprehensive understanding of AI compute challenges."
+          },
+          "infrastructure": {
+            "title": "Plan Infrastructure",
+            "description": "Develop strategic recommendations for sustainable AI infrastructure investments that meet Canada's sovereignty needs."
+          },
+          "whitepaper": {
+            "title": "Publish Findings",
+            "description": "Release a comprehensive whitepaper to inform policy decisions and investment strategies for AI compute in Canada."
+          }
+        },
+        "timeline": {
+          "title": "Project Timeline",
+          "may": {
+            "date": "May 2025",
+            "title": "Launch Initiative",
+            "description": "Public launch of HowMuchAI.ca and initial stakeholder engagement."
+          },
+          "summer": {
+            "date": "Summer 2025",
+            "title": "Data Collection",
+            "description": "Comprehensive data gathering from industry, academia, and government."
+          },
+          "fall": {
+            "date": "Fall 2025",
+            "title": "Analysis Phase",
+            "description": "Processing and analysis of collected data to develop preliminary findings."
+          },
+          "q1": {
+            "date": "Q1 2026",
+            "title": "Whitepaper Release",
+            "description": "Publication of comprehensive findings and policy recommendations."
+          }
+        }
+      },
+      "cta": {
+        "title": "Join the National Dialogue",
+        "description": "Be part of shaping Canada's AI future. Share your insights and stay informed about our progress.",
+        "form": {
+          "name": "Name",
+          "email": "Email",
+          "industry": "Industry",
+          "industries": {
+            "private": "Private Sector",
+            "public": "Public Sector",
+            "postSecondary": "Post-Secondary",
+            "research": "Research",
+            "citizen": "Citizen"
+          },
+          "submit": "Join the Dialogue",
+          "submitting": "Submitting...",
+          "success": "Thank you for joining the dialogue! We'll be in touch soon."
+        }
+      }
+    },
+    "calculator": {
+      "aiComputeProjector": "AI Compute Projector",
+      "adoptionSpeed": "Adoption Speed",
+      "slower": "Slower",
+      "faster": "Faster",
+      "computeGrowth": "Compute Growth",
+      "linear": "Linear",
+      "exponential": "Exponential",
+      "investmentScale": "Investment Scale",
+      "conservative": "Conservative",
+      "aggressive": "Aggressive",
+      "totalInvestment": "Total Investment",
+      "energyConsumption": "Energy Consumption",
+      "totalUsers": "Total Users",
+      "gpusRequired": "GPUs Required",
+      "privateSector": "Private Sector",
+      "postSecondary": "Post-Secondary",
+      "day": "day",
+      "aiAdoptionTrends": "AI Adoption Trends",
+      "inferenceDemand": "Inference Demand",
+      "computeCostTrends": "Compute & Cost Trends",
+      "analysisInsights": "Analysis & Insights",
+      "totalUsersPercent": "Total Users (%)",
+      "privateSectorDay": "Private Sector (M/day)",
+      "postSecondaryDay": "Post-Secondary (M/day)",
+      "computeMW": "Compute (MW)",
+      "costMillions": "Cost ($M)",
+      "interpretationText": "By 2030, with current projections, {adoptionPercentage}% of Canadians will be using AI regularly, generating {privateDemand}M private sector and {postSecondaryDemand}M post-secondary inferences per day. This will require approximately {energy} MW of computing power, supported by {gpus} GPUs, with a total investment of {cost}."
+    },
+    "footer": {
+      "privacy": "Privacy Policy",
+      "attribution": "An initiative of the Government of Alberta"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "This Privacy Policy outlines how the Government of Alberta collects, uses, and protects information gathered through the HowMuchAI.ca platform. By using this platform, you consent to the data practices described in this policy.",
+      "dataCollection": {
+        "title": "Information We Collect",
+        "description": "We collect the following types of information:",
+        "items": {
+          "personal": "Personal information such as name, email address, organization, and role when you submit the form.",
+          "usage": "Usage data including interaction with the calculator and time spent on the platform.",
+          "feedback": "Feedback and comments provided through the platform."
+        }
+      },
+      "dataUse": {
+        "title": "How We Use Your Information",
+        "description": "The information collected will be used for the following purposes:",
+        "items": {
+          "whitepaper": "To inform the HowMuchAI whitepaper on AI compute requirements in Alberta and Canada.",
+          "policy": "To develop policy recommendations for AI investment and infrastructure development.",
+          "research": "For research purposes to better understand AI adoption and compute needs."
+        }
+      },
+      "dataSharing": {
+        "title": "Information Sharing",
+        "description": "Your information may be shared with the following entities:",
+        "items": {
+          "government": "Government of Alberta departments involved in AI strategy and policy development.",
+          "cci": "The Canadian Computing Infrastructure (CCI) for analysis and research purposes.",
+          "amii": "The Alberta Machine Intelligence Institute (Amii) to inform AI research and development initiatives."
+        }
+      },
+      "dataProtection": {
+        "title": "Data Protection",
+        "description": "We implement appropriate security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. All data is stored securely and processed in compliance with relevant privacy laws and regulations."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "description": "If you have questions or concerns about this Privacy Policy or the data we hold about you, please contact the Government of Alberta's Privacy Office."
+      }
+    }
+  },
+  "fr": {
+    "nav": {
+      "about": "À propos",
+      "calculator": "Calculateur",
+      "features": "Caractéristiques",
+      "approach": "Approche",
+      "join": "Rejoindre le Dialogue"
+    },
+    "home": {
+      "hero": {
+        "tagline": "Initiative canadienne de calcul pour l'IA",
+        "title": "Combien d'IA le Canada a-t-il besoin?",
+        "subtitle": "Rejoignez le dialogue national pour façonner l'avenir de l'IA au Canada et assurer une innovation souveraine dans un paysage en évolution rapide.",
+        "exploreButton": "Explorer le Calculateur",
+        "learnMoreButton": "En Savoir Plus",
+        "demoOnly": "DÉMO SEULEMENT",
+        "governmentAttribution": "Une initiative du gouvernement de l'Alberta"
+      },
+      "about": {
+        "tagline": "Initiative canadienne de calcul pour l'IA",
+        "title": "Le défi du calcul IA du Canada",
+        "description": "CombienIA.ca est une plateforme pour modéliser les besoins en calcul d'IA du Canada, assurant l'innovation souveraine et la compétitivité mondiale.",
+        "extendedDescription": "Cette initiative vise à quantifier les besoins en calcul d'IA du Canada, à réduire la dépendance aux ressources étrangères et à développer une feuille de route stratégique pour un investissement durable dans l'infrastructure d'IA.",
+        "cards": {
+          "reliance": {
+            "title": "Réduire la dépendance",
+            "description": "Réduire la dépendance du Canada aux ressources de calcul d'IA étrangères pour assurer la souveraineté des données et la sécurité nationale."
+          },
+          "stakeholders": {
+            "title": "Autonomiser les parties prenantes",
+            "description": "Fournir des outils aux parties prenantes pour éclairer les décisions politiques et d'investissement pour l'infrastructure d'IA du Canada."
+          },
+          "future": {
+            "title": "Construire pour l'avenir",
+            "description": "Créer un écosystème d'IA durable qui profite à tous les Canadiens pour les générations à venir."
+          }
+        }
+      },
+      "calculator": {
+        "tagline": "Outil Interactif",
+        "title": "Explorez les besoins en calcul d'IA du Canada",
+        "description": "Utilisez notre calculateur interactif pour modéliser l'adoption de l'IA, la demande de calcul et les coûts de 2025 à 2030.",
+        "demoDisclaimer": "Ce calculateur est uniquement à des fins de démonstration"
+      },
+      "features": {
+        "tagline": "Capacités clés",
+        "title": "Caractéristiques du calculateur de calcul IA",
+        "description": "Notre calculateur fournit un cadre complet pour comprendre et planifier les besoins en infrastructure de calcul d'IA du Canada.",
+        "cards": {
+          "geographic": {
+            "title": "Distribution géographique",
+            "description": "Modélisez les besoins en calcul d'IA dans différentes régions du Canada, en tenant compte des infrastructures locales et des modèles de demande."
+          },
+          "sliders": {
+            "title": "Paramètres interactifs",
+            "description": "Ajustez des variables clés comme la vitesse d'adoption, la croissance du calcul et l'échelle d'investissement pour voir comment elles impactent l'avenir de l'IA au Canada."
+          },
+          "projections": {
+            "title": "Projections pluriannuelles",
+            "description": "Visualisez les tendances d'adoption de l'IA, la demande d'inférence et les besoins en calcul de 2025 à 2030."
+          },
+          "model": {
+            "title": "Modèle complet",
+            "description": "Basé sur des recherches avec l'industrie, le milieu universitaire et le gouvernement pour créer des scénarios réalistes pour les besoins en calcul d'IA."
+          },
+          "timeline": {
+            "title": "Analyse chronologique",
+            "description": "Comprendre comment les besoins en calcul d'IA évolueront au fil du temps et planifier les investissements en infrastructure en conséquence."
+          },
+          "collaboration": {
+            "title": "Approche collaborative",
+            "description": "Développé en partenariat avec des parties prenantes clés, notamment CCI et Amii, pour assurer l'exactitude et la pertinence."
+          }
+        }
+      },
+      "approach": {
+        "tagline": "Notre méthodologie",
+        "title": "Stratégie de l'Alberta pour quantifier le calcul d'IA",
+        "description": "Une approche systématique pour comprendre et planifier les besoins en infrastructure de calcul d'IA du Canada.",
+        "steps": {
+          "quantify": {
+            "title": "Quantifier les besoins",
+            "description": "Recueillir des données auprès des parties prenantes de tous les secteurs pour établir les besoins de base en calcul et les projections de croissance."
+          },
+          "partnerships": {
+            "title": "Établir des partenariats",
+            "description": "Collaborer avec l'industrie, le milieu universitaire et le gouvernement pour développer une compréhension globale des défis de calcul d'IA."
+          },
+          "infrastructure": {
+            "title": "Planifier l'infrastructure",
+            "description": "Élaborer des recommandations stratégiques pour des investissements durables dans l'infrastructure d'IA qui répondent aux besoins de souveraineté du Canada."
+          },
+          "whitepaper": {
+            "title": "Publier les résultats",
+            "description": "Publier un livre blanc complet pour éclairer les décisions politiques et les stratégies d'investissement pour le calcul d'IA au Canada."
+          }
+        },
+        "timeline": {
+          "title": "Calendrier du projet",
+          "may": {
+            "date": "Mai 2025",
+            "title": "Lancement de l'initiative",
+            "description": "Lancement public de CombienIA.ca et engagement initial des parties prenantes."
+          },
+          "summer": {
+            "date": "Été 2025",
+            "title": "Collecte de données",
+            "description": "Collecte complète de données auprès de l'industrie, du milieu universitaire et du gouvernement."
+          },
+          "fall": {
+            "date": "Automne 2025",
+            "title": "Phase d'analyse",
+            "description": "Traitement et analyse des données collectées pour développer des résultats préliminaires."
+          },
+          "q1": {
+            "date": "T1 2026",
+            "title": "Publication du livre blanc",
+            "description": "Publication des résultats complets et des recommandations politiques."
+          }
+        }
+      },
+      "cta": {
+        "title": "Rejoignez le Dialogue National",
+        "description": "Participez à façonner l'avenir de l'IA au Canada. Partagez vos idées et restez informé de nos progrès.",
+        "form": {
+          "name": "Nom",
+          "email": "Courriel",
+          "industry": "Secteur",
+          "industries": {
+            "private": "Secteur Privé",
+            "public": "Secteur Public",
+            "postSecondary": "Post-Secondaire",
+            "research": "Recherche",
+            "citizen": "Citoyen"
+          },
+          "submit": "Rejoindre le Dialogue",
+          "submitting": "Soumission en cours...",
+          "success": "Merci d'avoir rejoint le dialogue! Nous vous contacterons bientôt."
+        }
+      }
+    },
+    "calculator": {
+      "aiComputeProjector": "Projecteur de calcul IA",
+      "adoptionSpeed": "Vitesse d'adoption",
+      "slower": "Plus lent",
+      "faster": "Plus rapide",
+      "computeGrowth": "Croissance du calcul",
+      "linear": "Linéaire",
+      "exponential": "Exponentielle",
+      "investmentScale": "Échelle d'investissement",
+      "conservative": "Conservateur",
+      "aggressive": "Agressif",
+      "totalInvestment": "Investissement total",
+      "energyConsumption": "Consommation d'énergie",
+      "totalUsers": "Utilisateurs totaux",
+      "gpusRequired": "GPUs nécessaires",
+      "privateSector": "Secteur privé",
+      "postSecondary": "Post-secondaire",
+      "day": "jour",
+      "aiAdoptionTrends": "Tendances d'adoption de l'IA",
+      "inferenceDemand": "Demande d'inférence",
+      "computeCostTrends": "Tendances de calcul et coûts",
+      "analysisInsights": "Analyse et perspectives",
+      "totalUsersPercent": "Utilisateurs totaux (%)",
+      "privateSectorDay": "Secteur privé (M/jour)",
+      "postSecondaryDay": "Post-secondaire (M/jour)",
+      "computeMW": "Calcul (MW)",
+      "costMillions": "Coût ($M)",
+      "interpretationText": "D'ici 2030, selon les projections actuelles, {adoptionPercentage}% des Canadiens utiliseront régulièrement l'IA, générant {privateDemand}M d'inférences du secteur privé et {postSecondaryDemand}M d'inférences post-secondaires par jour. Cela nécessitera environ {energy} MW de puissance de calcul, soutenue par {gpus} GPUs, avec un investissement total de {cost}."
+    },
+    "footer": {
+      "privacy": "Politique de confidentialité",
+      "attribution": "Une initiative du gouvernement de l'Alberta"
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "intro": "Cette politique de confidentialité décrit comment le gouvernement de l'Alberta collecte, utilise et protège les informations recueillies via la plateforme CombienIA.ca. En utilisant cette plateforme, vous consentez aux pratiques de données décrites dans cette politique.",
+      "dataCollection": {
+        "title": "Informations que nous collectons",
+        "description": "Nous collectons les types d'informations suivants:",
+        "items": {
+          "personal": "Informations personnelles telles que nom, adresse e-mail, organisation et rôle lorsque vous soumettez le formulaire.",
+          "usage": "Données d'utilisation, y compris l'interaction avec le calculateur et le temps passé sur la plateforme.",
+          "feedback": "Commentaires et retours fournis via la plateforme."
+        }
+      },
+      "dataUse": {
+        "title": "Comment nous utilisons vos informations",
+        "description": "Les informations collectées seront utilisées aux fins suivantes:",
+        "items": {
+          "whitepaper": "Pour informer le livre blanc CombienIA sur les besoins en calcul d'IA en Alberta et au Canada.",
+          "policy": "Pour développer des recommandations politiques pour l'investissement et le développement d'infrastructures d'IA.",
+          "research": "À des fins de recherche pour mieux comprendre l'adoption de l'IA et les besoins en calcul."
+        }
+      },
+      "dataSharing": {
+        "title": "Partage d'informations",
+        "description": "Vos informations peuvent être partagées avec les entités suivantes:",
+        "items": {
+          "government": "Départements du gouvernement de l'Alberta impliqués dans la stratégie et la politique d'IA.",
+          "cci": "L'Infrastructure canadienne de calcul (CCI) à des fins d'analyse et de recherche.",
+          "amii": "L'Institut d'intelligence artificielle de l'Alberta (Amii) pour informer les initiatives de recherche et développement en IA."
+        }
+      },
+      "dataProtection": {
+        "title": "Protection des données",
+        "description": "Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos informations personnelles contre l'accès, l'altération, la divulgation ou la destruction non autorisés. Toutes les données sont stockées en toute sécurité et traitées conformément aux lois et réglementations pertinentes sur la confidentialité."
+      },
+      "contact": {
+        "title": "Informations de contact",
+        "description": "Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité ou les données que nous détenons à votre sujet, veuillez contacter le Bureau de la confidentialité du gouvernement de l'Alberta."
+      }
+    }
+  }
+}

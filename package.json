@@ -1,0 +1,16 @@
+{
+  "name": "howmuchai.ca",
+  "version": "0.0.2",
+  "private": true,
+  "author": "The Government of Alberta",
+  "license": "MIT",
+  "scripts": {
+    "install-all": "npm install && cd public && npm install && cd ../server && npm install",
+    "dev": "concurrently \"cd public && npm run dev\" \"cd server && npm run dev\"",
+    "build": "cd public && npm run build",
+    "start": "cd server && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
