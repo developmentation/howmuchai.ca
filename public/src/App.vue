@@ -73,9 +73,10 @@ const route = useRoute();
 // Track current language
 const currentLanguage = ref(locale.value);
 
-// Compute site name based on language
+// Compute site name based on domain
 const currentSite = computed(() => {
-  return currentLanguage.value === 'en' ? 'HowMuchAI.ca' : 'CombienIA.ca';
+  const hostname = window.location.hostname.toLowerCase();
+  return hostname.includes('combienia.ca') ? 'CombienIA.ca' : 'HowMuchAI.ca';
 });
 
 // Toggle language
@@ -102,17 +103,21 @@ const navigateToSection = (sectionId) => {
   }
 };
 
+// Detect domain and set locale on mount
+onMounted(() => {
+  const hostname = window.location.hostname.toLowerCase();
+  const newLanguage = hostname.includes('combienia.ca') ? 'fr' : 'en';
+  locale.value = newLanguage;
+  currentLanguage.value = newLanguage;
+  document.title = newLanguage === 'en' ? 'HowMuchAI.ca - AI Compute Calculator' : 'CombienIA.ca - Calculateur de Calcul IA';
+  
+  console.log('Component mounted');
+  console.log('process.env.NODE_ENV:', process.env.NODE_ENV);
+});
+
 // Update document title on language change
 watch(currentLanguage, (newLang) => {
   document.title = newLang === 'en' ? 'HowMuchAI.ca - AI Compute Calculator' : 'CombienIA.ca - Calculateur de Calcul IA';
-});
-
-// Set initial document title
-document.title = currentLanguage.value === 'en' ? 'HowMuchAI.ca - AI Compute Calculator' : 'CombienIA.ca - Calculateur de Calcul IA';
-
-onMounted(() => {
-  console.log('Component mounted');
-  console.log('process.env.NODE_ENV:', process.env.NODE_ENV);
 });
 </script>
 
