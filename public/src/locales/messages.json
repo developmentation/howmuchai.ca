@@ -199,7 +199,7 @@
         "description": "Your information may be shared with the following entities:",
         "items": {
           "government": "Government of Alberta departments involved in AI strategy and policy development.",
-          "cci": "The Canadian Computing Infrastructure (CCI) for analysis and research purposes.",
+          "cci": "The Canadian Council for Innovation (CCI) for analysis and research purposes.",
           "amii": "The Alberta Machine Intelligence Institute (Amii) to inform AI research and development initiatives."
         }
       },
@@ -413,7 +413,7 @@
         "description": "Vos informations peuvent être partagées avec les entités suivantes:",
         "items": {
           "government": "Départements du gouvernement de l'Alberta impliqués dans la stratégie et la politique d'IA.",
-          "cci": "L'Infrastructure canadienne de calcul (CCI) à des fins d'analyse et de recherche.",
+          "cci": "Conseil canadien des innovateurs (CCI) à des fins d'analyse et de recherche.",
           "amii": "L'Institut d'intelligence artificielle de l'Alberta (Amii) pour informer les initiatives de recherche et développement en IA."
         }
       },

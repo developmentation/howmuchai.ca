@@ -13,19 +13,19 @@
               <span class="text-xl font-bold text-white">{{ currentSite }}</span>
             </router-link>
           </div>
-          <nav class="hidden md:flex space-x-6">
-            <a @click.prevent="navigateToSection('about')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">{{ $t('nav.about') }}</a>
-            <a @click.prevent="navigateToSection('calculator')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">{{ $t('nav.calculator') }}</a>
-            <a @click.prevent="navigateToSection('features')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">{{ $t('nav.features') }}</a>
-            <a @click.prevent="navigateToSection('approach')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">{{ $t('nav.approach') }}</a>
+          <div class="flex items-center space-x-4">
+            <nav class="hidden md:flex space-x-6">
+              <a @click.prevent="navigateToSection('about')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">{{ $t('nav.about') }}</a>
+              <a @click.prevent="navigateToSection('calculator')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">{{ $t('nav.calculator') }}</a>
+              <a @click.prevent="navigateToSection('features')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">{{ $t('nav.features') }}</a>
+              <a @click.prevent="navigateToSection('approach')" class="text-gray-300 hover:text-white transition-colors cursor-pointer">{{ $t('nav.approach') }}</a>
+            </nav>
             <button 
               @click="toggleLanguage" 
               class="lang-toggle"
             >
               {{ currentLanguage === 'en' ? 'FR' : 'EN' }}
             </button>
-          </nav>
-          <div class="flex items-center">
             <a 
               @click.prevent="navigateToSection('cta')"
               class="bg-gradient-to-r from-teal-400 to-blue-500 text-white py-2 px-4 rounded-lg shadow-lg shadow-teal-500/20 hover:shadow-xl hover:shadow-teal-500/30 transition-all duration-300 text-sm font-medium cursor-pointer"
