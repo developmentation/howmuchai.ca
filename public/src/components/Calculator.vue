@@ -232,6 +232,7 @@ export default {
           maintainAspectRatio: false,
           scales: {
             y: {
+              max:100,
               beginAtZero: true,
               ticks: { color: '#d1d5db' },
               grid: { color: 'rgba(75, 85, 99, 0.1)' }
@@ -276,6 +277,7 @@ export default {
           maintainAspectRatio: false,
           scales: {
             y: {
+              max:250,
               beginAtZero: true,
               ticks: { color: '#d1d5db' },
               grid: { color: 'rgba(75, 85, 99, 0.1)' }
@@ -331,6 +333,7 @@ export default {
           maintainAspectRatio: false,
           scales: {
             y: {
+              max:500000,
               beginAtZero: true,
               ticks: { color: '#d1d5db' },
               grid: { color: 'rgba(75, 85, 99, 0.1)' }
@@ -379,6 +382,7 @@ export default {
           maintainAspectRatio: false,
           scales: {
             y: {
+              max:16000,
               beginAtZero: true,
               ticks: { color: '#d1d5db' },
               grid: { color: 'rgba(75, 85, 99, 0.1)' }
