@@ -57,7 +57,8 @@ const corsOptions = {
     const allowedOrigins = [
       'http://localhost:5173', // Frontend development URL
       'http://localhost:3000', // Backend URL (if needed)
-      process.env.FRONTEND_URL || 'https://howmuchai.com', // Production frontend URL
+      'https://howmuchai-ca.onrender.com',
+      'https://howmuchai.ca', // Production frontend URL
     ];
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, origin || '*'); // Reflect the origin for browser requests
