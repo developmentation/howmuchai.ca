@@ -9,7 +9,7 @@
       <p>{{ $t('privacy.dataCollection.description') }}</p>
       <ul class="list-disc pl-6 mt-2 space-y-2">
         <li>{{ $t('privacy.dataCollection.items.personal') }}</li>
-        <li>{{ $t('privacy.dataCollection.items.usage') }}</li>
+       
         <li>{{ $t('privacy.dataCollection.items.feedback') }}</li>
       </ul>
       
