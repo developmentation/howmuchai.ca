@@ -135,7 +135,7 @@
             "citizen": "Citizen"
           },
           "submit": "Join the Dialogue",
-          "disclaimer":"Your name and email information collected through the sign up for HowMuchAI.ca page will be used for the purpose of providing you with email updates on the HowMuchAI project. This collection is authorized under section 33(c) of the Freedom of Information and Protection of Privacy (FOIP) Act. If you have any questions about this collection of this information, you may contact the Artificial Intelligence Maximalist Team Lead in Technology and Innovation, 780-721-0551, or by email at GOA.AIMSupport@gov.ab.ca.",
+          "disclaimer":"By signing up, you consent to be contacted by the Government of Alberta to invite you to participate in this initiative. You may withdraw your consent at any time.",
           "submitting": "Submitting...",
           "success": "Thank you for joining the dialogue! We'll be in touch soon."
         }
@@ -349,7 +349,7 @@
             "research": "Recherche",
             "citizen": "Citoyen"
           },
-          "disclaimer":"Votre nom et courriel recueillis sur la page HowMuchAI.ca servent à vous envoyer des mises à jour sur le projet. Cette collecte est autorisée par l'article 33(c) de la Loi sur l'accès à l'information et la protection de la vie privée (FOIP). Pour toute question concernant la collection de ces renseignements, contactez le responsable du projet AI Maximalist au 780-721-0551 ou par courriel à GOA.AIMSupport@gov.ab.ca.",
+          "disclaimer":"En vous inscrivant, vous acceptez d'être contacté par le gouvernement de l'Alberta pour vous inviter à participer à cette initiative. Vous pouvez retirer votre consentement à tout moment.",
           "submit": "Rejoindre le Dialogue",
           "submitting": "Soumission en cours...",
           "success": "Merci d'avoir rejoint le dialogue! Nous vous contacterons bientôt."
